@@ -1,0 +1,164 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+
+.margenes {
+    display: flex;
+    justify-content:space-between;
+}
+.fotoRamon {
+    margin-bottom: -9.5%;
+    width: 65%;
+    height: -15%;
+}
+
+.name {
+    color: #ff6240;
+    margin-left: 70%;
+}
+
+.botones {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+
+.navlink1 {
+    margin-right: 12%;
+}
+
+.navlink3,.navlink4 {
+    color:#ffffff;
+    padding: 0.4rem;
+    margin-top: 1%;
+    margin-bottom:unset;
+    border-radius: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT';font-size: medium;
+    background-color:#ec7e62;
+    }
+
+hr {
+    border-color: #ff6240;
+    margin-bottom: -1.7%;
+    box-shadow: 0em 0.7em 1.2em 0em rgba(0, 0, 0, 2);
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+    color:#999999;
+    padding: 0.4rem;
+    border-radius: 0.5rem; border-color: #999
+    font-family 'Gill Sans', 'Gill Sans MT'; font-size: medium;
+    box-shadow: 0em 0.3em 0.5em 0em rgba(150, 150, 150, 5);
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.circle {
+    margin-bottom: 10%;
+    display: flex;
+    justify-content:center;
+}
+
+.circular {
+    margin-top: 10%;
+    width: 30em;
+    height: 30em;
+    overflow: hidden;
+    border-radius: 80%;
+    margin-bottom: 2%;
+}
+
+.section1,.section2 {
+    margin: 2% 20% 2% 20%;
+    align-items: center;
+    text-align: center;
+}
+
+#descarga {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30%;
+    margin-left: 10%;
+    margin-top: 5%; 
+}
+
+#sobreMi{
+    margin-top: 70%;
+    background-color: #f78e76;
+    border-radius: 1rem; 
+    padding: 3%;
+}
+
+img {
+    width: 100%;
+}
+
+#iconos {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items:center;
+    width: 25%;
+    margin-top: 10%;
+     
+}
+
+#footer {
+    background-color: #fcae96;
+    text-align:center;
+    padding: 2%;
+    margin-bottom: 0%;
+}
+
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
